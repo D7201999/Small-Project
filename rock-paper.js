@@ -110,7 +110,7 @@ function calculateComputerMove(playerMove){
     localStorage.setItem('losses',losses);
     localStorage.setItem('ties',ties);
     document.querySelector('.result-passage').innerHTML=`${result}`;
-document.querySelector(".result").innerHTML=`You <img src='D:/Dinesh/21701A0532/Images/${playerMove}-emoji.png' height='50px'> 
-<img src='D:/Dinesh/21701A0532/Images/${computerMove}-emoji.png' height='50px'> Computer `;
+document.querySelector(".result").innerHTML=`You <img src='Images/${playerMove}-emoji.png' height='50px'> 
+<img src='Images/${computerMove}-emoji.png' height='50px'> Computer `;
 document.querySelector('.score-message').innerHTML=`Wins: ${wins}, Losses: ${losses}, Ties: ${ties}`;
 }
